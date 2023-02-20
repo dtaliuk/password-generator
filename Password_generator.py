@@ -18,4 +18,4 @@ def generate_passwords(count, length):
         print(generate_password(length))
 
 
-generate_passwords(int(input()), int(input()))
+generate_passwords(int(input('count: ')), int(input('length: ')))
